@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format(opentype);
+}
+    body{
+        background-color: #84E1AD;
+        
+    }
+    header{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: linear-gradient(#3BD57F,#135338);
+        color: white;
+        height: 200px;
+        width: auto;
+        margin-top: -17px ;
+    }
+    h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    header p {
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 20px;
+        height: 100px;
+    
+    }
+    nav a {
+        display: inline;
+        text-align: left;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+       
+    }
+    
+    #assuntos h1,h2{
+        font-family: idroid;
+        text-align: left;
+        margin: 10px;
+    }
+    #assuntos h2{
+        font-family: idroid;
+        text-align: left;
+        margin: 10px;
+        font-size: 22px;
+        background-image: linear-gradient(to right,  #C8ECD8,  #DFF4E8,#F9FDFB );
+    }
+    #assuntos p{
+        text-align:left;
+        margin: 10px;
+    }
+    #assuntos strong{
+        color: green;
+    }
+    main{
+        background-color: white;
+        color: green;
+        margin: auto;
+        width: 800px;
+        
+
+    }
+    #video{
+        background-color: #135338;
+        
+    }
+    #curiosidades{
+        background-color: white;
+        color: black;
+    }
+    #curiosidades h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #2FA866;
+        margin: 20px; 
+        border-radius: 5px;
+        color: white;
+        text-align: justify;
+       
+    }
+
+    #curiosidades article{
+        background-color: #84E1AD;
+        margin: 20px;
+        border-radius: 5px;
+        color: black;
+        
+    }
+
+    .listas{
+        display: flex;
+        gap: 40px;
+        justify-content:  center;
+    }
+
+    .listas ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    footer{
+        text-align: center;
+        color: black;
+    }
